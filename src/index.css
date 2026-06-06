@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #07090e; }
+input[type=range] { -webkit-appearance: none; height: 4px; border-radius: 2px; outline: none; background: #1b2338; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #07090e; }
+::-webkit-scrollbar-thumb { background: #1b2338; border-radius: 2px; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+sup { font-size: 10px; }
